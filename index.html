@@ -40,7 +40,8 @@
       })
       .then((profile) => {
         window.location.replace(
-          `Paste Google Form URL and map your parameters here`
+          `https://docs.google.com/forms/d/e/1FAIpQLScr9KdkpZ_f_AiyfklF0pyHl1VqrXNJOz9NV_c13jLrpHwVxQ/viewform?
+usp=pp_url&entry.794870734=${profile.userId}&entry.467885612=${profile.pictureUrl}&entry.1916800451=${profile.displayName}`
         );
       });
     liff.init(
